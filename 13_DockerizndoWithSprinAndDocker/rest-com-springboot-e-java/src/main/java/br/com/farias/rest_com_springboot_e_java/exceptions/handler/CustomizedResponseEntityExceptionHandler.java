@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import br.com.erudio.exceptions.ExceptionResponse;
-import br.com.erudio.exceptions.InvalidJwtAuthenticationException;
-import br.com.erudio.exceptions.RequiredObjectIsNullException;
-import br.com.erudio.exceptions.ResourceNotFoundException;
+import br.com.farias.rest_com_springboot_e_java.exceptions.ExceptionResponse;
+import br.com.farias.rest_com_springboot_e_java.exceptions.InvalidJwtAuthenticationException;
+import br.com.farias.rest_com_springboot_e_java.exceptions.RequiredObjectIsNullException;
+import br.com.farias.rest_com_springboot_e_java.exceptions.ResourceNotFoundException;
 
 @ControllerAdvice
 @RestController
