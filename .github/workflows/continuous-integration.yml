@@ -24,11 +24,11 @@ jobs:
         cache: maven
         
     - name: Build Aplication Jar
-      working-directory: ./code/13_DockerizndoWithSprinAndDocker/rest-com-springboot-e-java
+      working-directory: ./13_DockerizndoWithSprinAndDocker/rest-com-springboot-e-java
       run: mvn clean package 
       
     - name: Docker compose Build 
-      working-directory: ./code/13_DockerizndoWithSprinAndDocker
+      working-directory: ./13_DockerizndoWithSprinAndDocker
       run: docker compose build
 
     - name: Push to Docker Hub Container Registry 
